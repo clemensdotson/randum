@@ -16,6 +16,7 @@ Similar PRNG's such as the marsenne twister have a tendency to be deterministic,
   - robust, cross-platform design has been tested on *Unix* based systems like *macOS* and *Kali Linux* as well as *Windows*
 
 ## uses
+ranDum was technically designed to generate irreplicable and complex file systems to be used as keyfiles for encrypted volumes, but it's capable of more.
 - secure tokens
 - account authentification
 - passwords
@@ -38,3 +39,5 @@ Show file creation status and log? y/n
 Show text-in-file creation status and log? y/n
 >Select y or n to view or omit the [Log | Write] Generating line (line) in file (file)
 
+## to-do
+ranDum will not be updated any further than this original version , as I have no need for a more complex CSPRNG keyfile generator. That being said, I'm now working on the (cleverly named) ranDumer that will allow for significantly more complex options, as well as predefined generators (like a quick secure password, url-safe token generation) or more advanced and highly-customizable bulk username / password generation.
