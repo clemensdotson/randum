@@ -24,7 +24,7 @@ ranDum was technically designed to generate irreplicable and complex file system
 ## options
 #### file settings
 How many files would you like to generate?
->The value here with correspond to the amount of .txt files created.
+>The value here will correspond to the amount of .txt files created.
 #### text settings
 
 How many lines of numbers would you like to generate per txt file?
